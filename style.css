@@ -1,0 +1,147 @@
+*{
+    background-color: rgb(250, 241, 225);
+    
+}
+.main_div{
+    border: 3px solid   rgb(240, 224, 224);
+    height: 500px;
+    width: 1000px;
+    margin-left: 160px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: fixed;
+
+   
+
+    
+  
+}
+.lol{
+    display: flex;
+    gap: 100px;
+    
+}
+#heading    h1{
+    color: rgb(36, 36, 252);
+    font-family: sans-serif;
+    padding-left: 60px;
+    /* position: fixed; */
+}
+#F_Name{
+    padding-left: 60px;
+    
+
+
+}
+::placeholder{
+    color: rgb(36, 36, 252);
+    text-indent: 15px;
+}
+input{
+    height: 45px;
+    width: 260px;
+    background-color: 	rgb(206, 249, 255);
+    border: 1px solid  wheat;
+    border-radius: 10px;
+   
+}
+.lol1{
+    display: flex;
+    gap: 100px;
+    margin-top: 30px;
+}
+#heading    h1{
+    color: rgb(36, 36, 252);
+    font-family: sans-serif;
+    padding-left: 60px;
+    /* position: fixed; */
+}
+#Email{
+    padding-left: 60px;
+    
+
+
+}
+::placeholder{
+    color: rgb(36, 36, 252);
+    text-indent: 15px;
+}
+input{
+    height: 45px;
+    width: 260px;
+    background-color: 	rgb(206, 249, 255);
+    border: 1px solid  wheat;
+    border-radius: 10px;
+   
+}
+
+
+#lol3{
+    display: flex;
+    gap: 100px;
+    margin-top: 30px;
+}
+#heading    h1{
+    color: rgb(36, 36, 252);
+    font-family: sans-serif;
+    padding-left: 60px;
+    /* position: fixed; */
+}
+#adress{
+    padding-left: 60px;
+
+}
+::placeholder{
+    color: rgb(36, 36, 252);
+    text-indent: 15px;
+}
+#adress input   {
+    height: 45px;
+    width: 630px;
+    background-color: 	rgb(206, 249, 255);
+    border: 1px solid  wheat;
+    border-radius: 10px;
+   
+}
+#lol4{
+    display: flex;
+    gap: 100px;
+    margin-top: 30px;
+}
+#heading    h1{
+    color: rgb(36, 36, 252);
+    font-family: sans-serif;
+    padding-left: 60px;
+    /* position: fixed; */
+}
+#message{
+    padding-left: 60px;
+
+}
+::placeholder{
+    color: rgb(36, 36, 252);
+    /* padding: 50px; */
+    /* text-indent: 15px; */
+}
+#message input   {
+    height: 80px;
+    width: 630px;
+    background-color: 	#477FC9;
+    border: 1px solid  wheat;
+    border-radius: 10px;
+   
+}
+#lol5{
+    display: flex;
+    padding-left: 320px;
+    gap: 100px;
+    margin-top: 30px;
+}
+#button input{
+    width: 120px;
+    height: 45px;
+    background-color: 	#0b0191;
+    border: 1px solid  wheat;
+    border-radius: 20px;
+
+}
