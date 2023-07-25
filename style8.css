@@ -1,0 +1,30 @@
+.color{
+    background-color: rgb(255, 0, 212);
+    /* border: 3px solid   red; */
+    margin-right: 50%;
+    padding-bottom: 580px;
+    position:relative;
+   
+
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.color2{
+    background-color: rgb(245, 41, 5);
+    border: 3px solid   rgb(98, 0, 255);
+    margin-left:50px;
+    padding-right:900px;
+    overflow-x: visible;
+    
+}
+.color2
+{
+    background-color: rgb(245, 41, 5);
+    border: 3px solid   rgb(98, 0, 255);
+    margin-left:50px;
+    padding-right :500px;
+
+}

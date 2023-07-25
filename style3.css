@@ -1,0 +1,86 @@
+.container{
+    color: white;
+    text-align: center;
+    /* text-indent: 10px; */
+    height: 500px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 350px;
+    background-color: rgb(1, 23, 43);
+    position: fixed;
+    box-shadow: 3px 3px 1px rgb(1, 23, 43);
+    border-radius: 20px;
+    box-shadow: 3px 3px 1px  rgb(1, 23, 43);
+    border: none;
+    transition: all 3s  ease-in-out;
+  
+}
+body{
+    background-color: rgb(173, 69, 69);
+
+
+}
+#statement{
+    font-weight: bold;
+    
+}
+.container  input{
+    height: 40px;
+    width:300px;
+    margin: 20px;
+    border: none;
+    background-color: rgb(78, 78, 78);
+    border-radius: 10px;
+   
+}
+
+:placeholder-shown{
+    text-align: start;
+    text-indent: 10px;
+}
+#button input{
+    background-color: blue;
+    color: white;
+    border: none;
+    transition: all 1s  ease-in-out;
+  
+}
+#button input:hover{
+  
+    background-color: rgb(7, 233, 94);
+    color: white;
+    border: none;
+
+}
+.container  h1:hover{
+    color: red;
+    transition: all 1s  ease-in-out;
+}
+.container  marquee{
+    color: rgb(255, 255, 255);
+    background-color: red;
+    
+    font-style: italic;
+    border: 1px solid   red;
+    box-shadow: 0px 0px 3px red;
+    width: 50px;
+    border-radius: 5px; 
+    transition: all 1s  ease-in-out;
+ 
+}
+.container  p{
+    color: rgba(4, 243, 16, 0.897);
+}
+.container  marquee:hover{
+    color: white;
+    border: 1px solid   rgb(31, 177, 67);
+    background-color: rgb(31, 177, 67);
+    box-shadow: 0px 0px 3px rgb(42, 224, 18);
+}
+.container  p:hover{
+    color:white;
+    transition: all 1s  ease-in-out;
+}
+input:placeholder-shown:hover{
+    color: rgb(211, 13, 13);
+}

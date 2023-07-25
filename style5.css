@@ -1,0 +1,76 @@
+
+#h1{
+    color: rgb(114, 114, 114);
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    /* font-weight: bold; */
+}
+.input{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    /* font-weight: bold; */
+    
+}
+input{
+    padding: 11px;
+    border: 1.5px solid   rgb(196, 191, 191);
+    border-radius: 5px;
+    /* position:fixed; */
+   background-color: rgb(255, 255, 255);
+
+}
+.password{
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    /* text-align: center; */
+    /* font-weight: bold; */
+    margin-top: 40px;
+    /* border: 3px solid   black; */
+   
+    padding-left: 24px;
+    position: fixed;
+}
+#maindiv{
+    border: 2px solid;
+    border-top-color: rgb(110, 110, 233);
+    border-left-color: rgb(48, 245, 245);
+    border-right-color: rgb(48, 245, 245);
+    border-bottom-color: rgb(110, 110, 233);
+    border-radius: 10px;
+    /* margin-left: 200px; */
+    /* padding-left: 200px; */
+    width: 400px;
+    height: 500px;
+    margin-left: 500px;
+    margin-top: 80px;
+    position: fixed;
+    /* background-color: rgb(195, 204, 221); */
+    background-color: rgb(255, 253, 228);
+
+
+    
+    
+}
+#button{
+    /* border: 3px solid   red; */
+    padding-top: 150px;
+    padding-bottom: 100px;
+    padding-left: 160px;
+    /* color: red; */
+  
+}
+body{
+    /* background-color: rgb(3, 32, 56); */
+    background-image:url("image.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    /* background-color: rgb(255, 253, 228); */
+
+
+}
+
+

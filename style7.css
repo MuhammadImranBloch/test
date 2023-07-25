@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+
+}
+.head{
+    text-align: center;
+    margin-top: 10px;
+}
+.h1{
+    float: left;
+    margin-left: 20px;
+    color: rgb(233, 19, 19);
+   
+}
+.h3{
+    float: right;
+    color: white;
+    
+    /* border: 1px solid  rgb(252, 214, 0); */
+    margin-right: 100px;
+    background-color: rgb(252, 214, 0);
+    padding: 6px;
+    border-radius: 15px;
+   
+
+    
+
+    
+    
+    
+}
+.navbar{
+    /* margin-top: 100px; */
+    text-decoration:none;
+    word-spacing: 15px;
+    
+
+
+    
+}
+.Welcome{
+    text-align: center;
+    margin: 200px;
+    
+}
+.wel{
+    color: white;
+}
+.lorem{
+    margin-top: 10px;
+}
+body{
+    background-color: rgb(0, 255, 221);
+}
