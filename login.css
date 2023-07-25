@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    /* background-image: url(""); */
+    /* background-image: url("background-2.png"); */
+    background-image: url("background-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main-container{
+    height: 100%;
+    width: 100%;
+    /* background-image: url("background-1.png"); */
+    /* background-image: url("background-2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; */
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px   100px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    z-index: 99;
+    align-items: center;
+}
+h1{
+    color: white;
+    font-size: 2em;
+    user-select: none;
+
+
+}
+.nav-bar    a{
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+    font-weight: 500;
+
+}
+/* .nav-bar    a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    bottom: -6px;
+    background: white;
+    border-radius: 5px;
+    
+    transform: scaleX(0);
+    transition-duration: 0.5s;
+}
+.nav-bara   a:hover::after{
+    transform: scaleX(1);
+
+
+
+
+} */
+.nav-bar a:hover{
+    transition-duration: 0.1s;
+    transform-origin: left;
+    border-bottom: 3px  solid   white;
+    
+}
+.nav-bar .btn{
+    color: white;
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid   white;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.1em;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.nav-bar .btn:hover{
+    background-color: white;
+    color: rgb(22, 22, 22);
+    transition-duration: 0.5s;
+
+
+
+
+}
+.login-container{
+    height: 400px;
+    width: 350px;
+    border: 1px solid   white;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white; */
+    margin-top: 130px;
+    margin-left: 500px;
+
+}
+.cross-box{
+    height: 40px;
+    width: 40px;
+    border: 1px solid   rgb(224, 9, 9);
+    /* margin-bottom: 50px; */
+    margin-left:310px;
+    border-bottom-left-radius: 5px;
+
+
+}
+.head-box   h1
+{
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    
+  
+   
+
+}
+.input-box{
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+   
+}
+
+
+.input-box  input{
+height: 40px;
+width: 300px;
+outline: none;
+margin: 0;
+padding: 0;
+margin-top: 30px;
+}
+.password-box{
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+   
+}
+.password-box  input{
+    height: 40px;
+    width: 300px;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    }
+    #lab{
+        padding-top: 40px;
+        position: absolute;
+        margin-right: 250px;
+    }
+    #pass{
+        padding-top: 40px;
+        position: absolute;
+        margin-right: 220px;
+    }
+    .check-box{
+        font-size: 20px;
+        margin-left: 60px;
+    }
+    .button-box{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+         flex-direction: column;
+    }
+    .check-box  input{
+        margin-right: 90px;
+
+    }
+    .button-box button{
+        height: 40px;
+        width: 300px;
+        outline: none;
+        margin: 0;
+        padding: 0;
+        margin-top: 30px;
+    }

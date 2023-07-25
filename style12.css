@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    /* background:linear-gradient(to top,white,rgb(124, 124, 255),white,white); */
+    /* background:linear-gradient(to top ,white,blue);
+    background:linear-gradient(to bottom,white,blue); */
+    /* background:linear-gradient(360deg,white,blue,white); */
+    /* background:linear-gradient(to   bottom,#007bff,#ffffff); */
+}
+ 
+.image{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 80px;
+    
+}
+.image  img{
+    /* mix-blend-mode:multiply; */
+    background-color: transparent;
+}
+.image:hover{
+    transition-duration: 3s;
+    transform:rotateY(360deg);
+    perspective: 800px;
+    /* mix-blend-mode:multiply;
+    filter: brightness(100); */
+    background-color: transparent;
+}
+
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-top: 30px;
+
+}
+.text-box   input{
+    height: 50px;
+    width:300px;
+    border: 1.5px   solid   black;
+    border-radius: 7px;
+    /* animation-name: an1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+
+}
+/* @keyframes  an1{
+    0%{
+        border: 3px   solid   red;
+        background-color: white;
+    }
+    100%{
+        border: 3px   solid   blue;
+        background-color: rgb(218, 76, 76);
+    }
+
+} */
+
+.password-box   input{
+    height: 50px;
+    width:300px;
+    border: 1.5px   solid   black;
+    margin-top: 30px;
+    border-radius: 7px;
+}
+input:hover{
+    border: 2.5px   solid   rgb(114, 164, 255);
+
+}
+input::placeholder{
+    color: rgb(51, 51, 51);
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight:600;
+}
+.check-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.button-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-top: 30px;
+   
+   
+}
+.remember{
+    margin-left: 10px;
+
+
+}
+.forgot{
+    margin-left: 15px;
+
+}
+span{
+    color: darkorange;
+    text-decoration: solid;
+    /* font-family: 'Gill Sans',  sans-serif;
+    font-size: 18px; */
+   
+}
+.button-box button{
+    height: 50px;
+    width:300px;
+    color: white;
+    background-color: rgb(9, 9, 44);
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color    0.3s,transform  0.3s;
+}
+.button-box button:hover{
+    /* background-color: lightblue; */
+    background-color: aqua;
+    transform: scale(1.1);
+    font-weight: bold;
+}
+#mycheckbox{
+    height: 20px;
+    width: 20px;
+    background-color: red;
+}
+
